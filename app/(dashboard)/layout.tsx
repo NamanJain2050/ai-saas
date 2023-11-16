@@ -9,7 +9,6 @@ const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
         <Sidebar />
       </div>
       <main className="md:pl-72">
-        Hello Content
         <Navbar />
         {children}
       </main>
